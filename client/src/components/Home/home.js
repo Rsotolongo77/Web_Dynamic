@@ -1,17 +1,8 @@
-import React, { Component } from "./react";
-import { Link } from "react-router-dom";
-import { Container } from '@material-ui/core';
+import React, { useState, useEffect } from "react";
+// import { Link } from "react-router-dom";
+import { Grid } from "@material-ui/core";
+import { Container } from "@material-ui/core";
 
-class Home extends Component {
-
-    render() {
-        return (
-            <Container>
-                <h1>Web Dynamic</h1>
-            </Container>
-        );
-    }
-
+const Home = () => {
 }
-
-export default Component;
+export default Home;
