@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Home from './components/Home/home';
-// import About from '../src/components/About';
-// import Contact from '../src/components/Contact';
-// import Portfolio from '../src/components/Portfolio';
+import Home from './pages/Home/home';
+// import About from '../pages/About/about';
+// import Contact from '../pages/Contact/contact';
+// import Portfolio from '../pages/Portfolio/portfolio';
 import './App.css';
 
 function App() {
