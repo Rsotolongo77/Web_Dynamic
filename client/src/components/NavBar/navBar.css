@@ -1,11 +1,11 @@
 .navHead {
-    position: fixed;
     width: 100%;
+    height: 10rem;
     top: 0;
     left: 0
 }
 
-nav {
+.navBar {
     display: flex;
     align-items: center;
     padding: 1rem

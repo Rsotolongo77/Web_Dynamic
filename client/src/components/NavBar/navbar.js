@@ -7,7 +7,7 @@ const navBar = props => (
     <header className='navHead'>
         <nav className='navBar'>
             <div className='hamDiv'>
-                <SideNavToggle />
+                <SideNavToggle click={props.drawerClickHandler} />
             </div>
 
             <div className='spacer'></div>

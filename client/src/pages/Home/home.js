@@ -1,16 +1,39 @@
-import React from "react";
+import React, { Component } from "react";
 import NavBar from '../../components/NavBar/navBar';
+import SideNav from '../../components/SideNav/sideNav';
+import BackDrop from '../../components/Backdrop/backDrop';
 
-const Home = () => {
+class Home extends Component {
+    state = {
+        toggleOpen: false
+    };
 
-    return (
-        <div>
-            <NavBar />
-            <main>
+    toggleHandler = () => {
+        this.setState((prevState) => {
+            return { toggleOpen: !prevState.toggleOpen }
+        });
+    };
 
-            </main>
-        </div>
-    );
+    backDropClose = () => {
+        this.setState({ toggleOpen: false })
+    };
+
+    render() {
+        let backDrop;
+        if (this.state.toggleOpen) {
+            backDrop = <BackDrop click={this.backDropClose} />
+        }
+        return (
+            <div style={{ height: '100vh' }}>
+                <NavBar drawerClickHandler={this.toggleHandler} />
+                <SideNav show={this.state.toggleOpen} />
+                {backDrop}
+                <main>
+
+                </main>
+            </div>
+        );
+    }
 }
 
 export default Home;
