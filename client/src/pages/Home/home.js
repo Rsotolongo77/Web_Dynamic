@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import NavBar from '../../components/NavBar/navBar';
 import SideNav from '../../components/SideNav/sideNav';
 import BackDrop from '../../components/Backdrop/backDrop';
+import HomeTransition from '../../components/HomeTransition/homeTransition';
 
 class Home extends Component {
     state = {
@@ -29,7 +30,7 @@ class Home extends Component {
                 <SideNav show={this.state.toggleOpen} />
                 {backDrop}
                 <main>
-
+                    <HomeTransition />
                 </main>
             </div>
         );

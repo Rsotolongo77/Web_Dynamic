@@ -1,0 +1,25 @@
+.homeTransition {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 8rem;
+}
+
+.contentTransition {
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+    color: rgb(77, 77, 77);
+    animation-name: fade;
+    animation-duration: 7s;
+}
+
+@keyframes fade {
+    
+    from {opacity: 0;}
+    to{opacity: 1;}
+}
+hr {
+    margin: 0;
+    background-color: rgb(211, 211, 211);
+    height: 1px;
+    border: 0;
+}
