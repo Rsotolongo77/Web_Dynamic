@@ -1,17 +1,15 @@
 import React from 'react';
 import './homeTransition.css';
-import { CSSTransition } from 'react-transition-group';
+// import { CSSTransition } from 'react-transition-group';
 
 
 const HomeTransition = () => {
     return (
         <div className='homeTransition'>
             <div className='contentTransition'>
-                <CSSTransition>
-                    <h1 class='fadeHome'>Web Dynamic</h1>
-                </CSSTransition>
+                <h1>Web Dynamic</h1>
             </div>
-            <hr />
+            <div className='homeLine'></div>
         </div>
     );
 }
