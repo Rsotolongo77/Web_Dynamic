@@ -8,7 +8,13 @@
     border: none;
     cursor: pointer;
     padding: 0;
-    box-sizing: border-box
+    box-sizing: border-box;
+    transition: 1s;
+}
+
+.toggle-button:hover {
+    outline-color: rgb(199, 191, 81);
+    transform: rotate(360deg)
 }
 
 .toggle-button:focus {
