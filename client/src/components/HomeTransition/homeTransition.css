@@ -1,6 +1,12 @@
 .homeTransition {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 5rem;
+    margin-top: 7rem;
+    margin-bottom: 4rem;
+}
+
+.headerHome {
+    margin-top: 7rem;
+    margin-bottom: 3rem;
 }
 
 .contentTransition {
@@ -9,11 +15,10 @@
     font-size: 5rem;
     color: rgb(77, 77, 77);
     animation-name: fade;
-    animation-duration: 5s;
+    animation-duration: 4s;
 }
 
 @keyframes fade {
-    
     from {opacity: 0;}
     to{opacity: 1;}
 }
@@ -37,18 +42,18 @@
     height: 100%;
     background-color: white;
     animation-name: animate;
-    animation-duration: 2s;
-    animation-timing-function: ease-in;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
     animation-direction: linear;
 }
 
 @keyframes animate{
     0%{
-        transform-origin: left;
+        transform-origin: center;
         transform: scaleX(0);
     }
     100% {
-        transform-origin: left;
+        transform-origin: center;
         transform: scaleX(1);
     }
 }

@@ -14,11 +14,12 @@
 
 .toggle-button:hover {
     outline-color: rgb(199, 191, 81);
-    transform: rotate(360deg)
+    background-color: rgb(216, 207, 84);
+    border-radius: 5px;
 }
 
 .toggle-button:focus {
-    outline-color: rgb(199, 191, 81);
+    outline:0;
 }
 
 .toggle-button_line {
