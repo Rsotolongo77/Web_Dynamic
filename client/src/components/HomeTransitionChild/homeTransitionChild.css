@@ -2,26 +2,49 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.transitionChildContent1, transitionChildContent2, transitionChildContent3, a  {
+    text-decoration: none;
+    color: rgb(77, 77, 77);
+}
+
 .transitionChildParent {
     display: flex;
     justify-content: center;
 }
 
-.transitionChildContent {
+.transitionChildContent1, .transitionChildContent2, .transitionChildContent3 {
     display: flex;
     justify-content: center;
     position: relative;
     font-size: 3rem;
     background-color: rgb(199, 191, 81);
     border-bottom:2px solid rgb(250, 72, 72);
-    color: rgb(77, 77, 77);
     margin: 0 3rem;
     animation-name: childContent;
-    animation-duration: 3.5s;
+    animation-duration: 4s;
+}
+
+.transitionChildContent1:hover, .transitionChildContent2:hover, .transitionChildContent3:hover {
+    border-bottom: 1px solid rgb(255, 255, 70);
+}
+
+.transitionChildContent1 {
+    animation-name: childContent;
+    animation-duration: 1.8s;
+}
+
+.transitionChildContent2 {
+    animation-name: childContent;
+    animation-duration: 2.5s;
+}
+
+.transitionChildContent3 {
+    animation-name: childContent;
+    animation-duration: 3.2s;
 }
 
 @keyframes childContent{
-    0%{bottom:-350vh}
+    0%{bottom:-150vh}
     100%{bottom: 0px}
 }
 
