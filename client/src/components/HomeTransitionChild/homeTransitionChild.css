@@ -23,12 +23,28 @@
     opacity: 0;
     animation-name: childContent;
     animation-fill-mode: forwards;
-    animation-delay: 2s;
+    animation-delay: 4s;
+    transition: border .25s ease-out;
 }
 
 .transitionChildContent1:hover, .transitionChildContent2:hover, .transitionChildContent3:hover {
-    border-bottom: 1px solid rgb(255, 255, 70);
-    transition: transform 0.3s ease-out;
+    border-bottom:2px solid rgb(250, 72, 72);
+}
+
+.transitionChildContent1::after, .transitionChildContent2::after, .transitionChildContent3::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-bottom: 2px solid rgb(255, 255, 70);
+    transform-origin: left;
+    transition: width .25s ease-out;
+}
+
+.transitionChildContent1:hover::after, .transitionChildContent2:hover::after, .transitionChildContent3:hover::after{
+    width: 100%;
 }
 
 .transitionChildContent1 {
