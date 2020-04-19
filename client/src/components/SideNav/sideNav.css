@@ -7,7 +7,6 @@
     top: 0;
     left: 0;
     padding-top: 2rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     transform: translateX(-100%);
     transition: transform 0.3s ease-out;
     z-index: 200;

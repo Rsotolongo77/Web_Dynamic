@@ -3,6 +3,7 @@ import NavBar from '../../components/NavBar/navBar';
 import SideNav from '../../components/SideNav/sideNav';
 import BackDrop from '../../components/Backdrop/backDrop';
 import HomeTransition from '../../components/HomeTransition/homeTransition';
+import HomeTransitionChild from '../../components/HomeTransitionChild/homeTransitionChild';
 
 class Home extends Component {
     state = {
@@ -29,8 +30,9 @@ class Home extends Component {
                 <NavBar drawerClickHandler={this.toggleHandler} />
                 <SideNav show={this.state.toggleOpen} />
                 {backDrop}
-                <main>
+                <main className='main'>
                     <HomeTransition />
+                    <HomeTransitionChild />
                 </main>
             </div>
         );

@@ -15,7 +15,7 @@
     font-size: 5rem;
     color: rgb(77, 77, 77);
     animation-name: fade;
-    animation-duration: 4s;
+    animation-duration: 3s;
 }
 
 @keyframes fade {
@@ -42,7 +42,7 @@
     height: 100%;
     background-color: white;
     animation-name: animate;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-timing-function: ease-in-out;
     animation-direction: linear;
 }
