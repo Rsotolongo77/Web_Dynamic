@@ -23,7 +23,7 @@
     opacity: 0;
     animation-name: childContent;
     animation-fill-mode: forwards;
-    animation-delay: 4s;
+    animation-delay: 2.5s;
     transition: border .25s ease-out;
 }
 
