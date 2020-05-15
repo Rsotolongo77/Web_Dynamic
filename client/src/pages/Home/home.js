@@ -4,6 +4,7 @@ import SideNav from '../../components/SideNav/sideNav';
 import BackDrop from '../../components/Backdrop/backDrop';
 import HomeTransition from '../../components/HomeTransition/homeTransition';
 import HomeTransitionChild from '../../components/HomeTransitionChild/homeTransitionChild';
+import './home.css';
 
 class Home extends Component {
     state = {

@@ -7,9 +7,9 @@ const HomeTransitionChild = () => {
     return (
         <div className='homeTransitionChild'>
             <div className='transitionChildParent'>
-                <div className='transitionChildContent1'><Link to='/about'>About</Link></div>
-                <div className='transitionChildContent2'><Link to='/about'>Portfolio</Link></div>
-                <div className='transitionChildContent3'><Link to='/about'>Contact</Link></div>
+                <Link className='transitionChildContent1' to='/about'>About</Link>
+                <Link className='transitionChildContent2' to='/portfolio'>Portfolio</Link>
+                <Link className='transitionChildContent3' to='/contact'>Contact</Link>
             </div>
         </div>
     );
