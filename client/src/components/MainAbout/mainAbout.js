@@ -5,6 +5,7 @@ import './mainAbout.css';
 const MainAbout = () => {
     return (
         <div className='aboutMain'>
+            <div className='introAbout'><h1>Web Dynamic Provides</h1></div>
             <div className='verticalLine'></div>
 
             <div className='horizontal_line1'></div>
