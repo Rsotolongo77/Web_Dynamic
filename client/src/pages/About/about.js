@@ -3,6 +3,7 @@ import NavBar from '../../components/NavBar/navBar';
 import SideNav from '../../components/SideNav/sideNav';
 import BackDrop from '../../components/Backdrop/backDrop';
 import MainAbout from '../../components/MainAbout/mainAbout';
+import Footer from '../../components/Footer/footer';
 import './about.css';
 
 class About extends Component {
@@ -33,6 +34,7 @@ class About extends Component {
                 <main className='mainAbout'>
                     <MainAbout />
                 </main>
+                <Footer />
             </div>
         );
     }
