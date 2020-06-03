@@ -41,10 +41,28 @@ const MainAbout = () => {
                 </div>
 
                 <div className='horizontal_line3'></div>
-                <div className='horizontal_box3'><h1>Value</h1></div>
+                <div className='box3Container'>
+                    <div className='box3Content'>
+                        <div className='box3Front'>
+                            <h1>Value</h1>
+                        </div>
+                        <div className='box3Back'>
+                            <p>testing</p>
+                        </div>
+                    </div>
+                </div>
 
                 <div className='horizontal_line4'></div>
-                <div className='horizontal_box4'><h1>Tailored</h1></div>
+                <div className='box4Container'>
+                    <div className='box4Content'>
+                        <div className='box4Front'>
+                            <h1>Tailored</h1>
+                        </div>
+                        <div className='box4Back'>
+                            <p>testing</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     );
