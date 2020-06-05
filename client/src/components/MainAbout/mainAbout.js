@@ -23,7 +23,7 @@ const MainAbout = () => {
                             <h1>Excellence</h1>
                         </div>
                         <div className='box1Back'>
-                            <p>testing</p>
+                            <p>The by-product of our love for design and UI yields a result in pursuit of perfection. </p>
                         </div>
                     </div>
                 </div>
@@ -35,7 +35,7 @@ const MainAbout = () => {
                             <h1>Simplicity</h1>
                         </div>
                         <div className='box2Back'>
-                            <p>testing</p>
+                            <p>We believe a UI should be intuitive and efficient. Less is more with our applications.</p>
                         </div>
                     </div>
                 </div>
@@ -47,7 +47,7 @@ const MainAbout = () => {
                             <h1>Value</h1>
                         </div>
                         <div className='box3Back'>
-                            <p>testing</p>
+                            <p>Make your dollar go further without compromises.</p>
                         </div>
                     </div>
                 </div>
@@ -59,7 +59,7 @@ const MainAbout = () => {
                             <h1>Tailored</h1>
                         </div>
                         <div className='box4Back'>
-                            <p>testing</p>
+                            <p>Get the personal attention you and your project truly deserve.</p>
                         </div>
                     </div>
                 </div>
