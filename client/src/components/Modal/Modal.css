@@ -25,6 +25,9 @@
       background-color: rgba(243, 113, 113, 0.555);
       border-radius: 3px;
       border: none;
+      color: white;
+      cursor: pointer;
+      font-size: large;
   }
   
   .display-block {
