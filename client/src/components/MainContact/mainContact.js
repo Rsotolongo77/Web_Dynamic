@@ -55,7 +55,7 @@ class MainContact extends Component {
 
                 {this.state.show ? (
                     <Modal show={this.state.show} handleClose={this.hideModal}>
-                        <h4>Message sent! Thank you for your inquiry.</h4>
+                        <h3>Message sent! Thank you for your inquiry.</h3>
                     </Modal>
                 ) : (
                         null

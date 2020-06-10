@@ -4,7 +4,7 @@
     margin-bottom: 10rem;
     height: 70vh;
     width: 100vw;
-    background-color: rgb(255, 255, 244);
+    background-color: rgb(85, 85, 85);
     animation-name: fade;
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
@@ -17,7 +17,7 @@
 }
 
 .introAbout {
-    color: rgb(70, 70, 70);
+    color: rgb(236, 236, 236);
     line-height: 1.4;
     padding-top: 1rem;
     padding-left: 7rem;
@@ -35,8 +35,8 @@
     top: 15%;
     left: 50%;
     height: 60%;
-    width: 4px;
-    background-color: black;
+    width: 2px;
+    background-color: rgb(243, 64, 64);
 }
 
 .horizontal_line1 {
@@ -45,7 +45,7 @@
     left: 43%;
     height: 2px;
     width: 7%;
-    background-color: black;
+    background-color: rgb(243, 64, 64);
 }
 
 .horizontal_line2 {
@@ -54,7 +54,7 @@
     left: 50%;
     height: 2px;
     width: 7%;
-    background-color: black;
+    background-color: rgb(243, 64, 64);
 }
 
 .horizontal_line3 {
@@ -63,7 +63,7 @@
     left: 41%;
     height: 2px;
     width: 9%;
-    background-color: black;
+    background-color: rgb(243, 64, 64);
 }
 
 .horizontal_line4 {
@@ -72,7 +72,7 @@
     left: 50%;
     height: 2px;
     width: 8%;
-    background-color: black;
+    background-color: rgb(243, 64, 64);
 }
 
 .box1Container {
@@ -101,9 +101,9 @@
 
 .box1Front{
     padding: 1rem 2rem;
-    color:white;
-    border: 2px solid rgb(201, 69, 69);
-    background-color: rgb(95, 95, 95);
+    color:rgb(87, 87, 87);
+    border: 3px solid rgb(255, 242, 66);
+    background-color: white;
     backface-visibility: hidden;
 }
 
@@ -145,9 +145,9 @@
 .box2Front{
      backface-visibility: hidden;
      padding: 1rem 2rem;
-     color: white;
-     border: 2px solid rgb(201, 69, 69);
-     background-color: rgb(95, 95, 95);
+     color: rgb(87, 87, 87);
+     border: 3px solid rgb(255, 242, 66);
+     background-color: white;
 }
 
 .box2Back {
@@ -188,9 +188,9 @@
 .box3Front{
      backface-visibility: hidden;
      padding: 1rem 2rem;
-     color: white;
-     border: 2px solid rgb(201, 69, 69);
-     background-color: rgb(95, 95, 95);
+     color: rgb(87, 87, 87);
+     border: 3px solid rgb(255, 242, 66);
+     background-color: white;
 }
 
 .box3Back {
@@ -231,9 +231,9 @@
 .box4Front{
      backface-visibility: hidden;
      padding: 1rem 2rem;
-     color: white;
-     border: 2px solid rgb(201, 69, 69);
-     background-color: rgb(95, 95, 95);
+     color: rgb(87, 87, 87);
+     border: 3px solid rgb(255, 242, 66);
+     background-color: white;
 }
 
 .box4Back {

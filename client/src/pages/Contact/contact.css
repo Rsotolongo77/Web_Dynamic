@@ -2,7 +2,5 @@
     display: flex;
     justify-content: center;
     margin: 5rem 0rem;
-    background-color: rgb(194, 194, 194);
-    border-top: 1px rgb(224, 224, 224) solid;
-    border-bottom: 1px rgb(224, 224, 224) solid;
+    background-color: rgb(94, 94, 94);
 }

@@ -27,8 +27,7 @@ class About extends Component {
             backDrop = <BackDrop click={this.backDropClose} />
         }
         return (
-            <div className='pageContainer'
-                style={{ height: '100vh' }}>
+            <div style={{ height: '100vh' }}>
                 <NavBar drawerClickHandler={this.toggleHandler} />
                 <SideNav show={this.state.toggleOpen} />
                 {backDrop}
