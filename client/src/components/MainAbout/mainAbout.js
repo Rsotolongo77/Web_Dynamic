@@ -11,7 +11,7 @@ const MainAbout = () => {
                 web designs, that will keep the user immersed in your brand.
                 All while providing a smooth and efficient user experience.
                 </p>
-                <p> Our passion is levaraging the digital world for your success.
+                <p> Our passion is leveraging the digital world for your success.
                 Let us focus on perfecting your solution!</p></div>
 
             <div className='aboutGraph'>
