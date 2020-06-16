@@ -1,0 +1,26 @@
+.navHead {
+    width: 100%;
+    height: 10rem;
+    top: 0;
+    left: 0
+}
+
+.navBar {
+    display: flex;
+    align-items: center;
+    padding: 1rem
+}
+
+.hamDiv {
+    padding-left: 4rem;
+    padding-bottom: 4rem
+}
+
+.spacer {
+    flex: 1
+}
+
+.logoDiv img {
+    height: 12rem;
+    padding-right: 1rem
+}

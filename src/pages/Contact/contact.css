@@ -1,0 +1,6 @@
+.mainContact {
+    display: flex;
+    justify-content: center;
+    margin: 4rem 0rem;
+    background-color: rgb(94, 94, 94);
+}
