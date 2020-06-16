@@ -1,6 +1,6 @@
 import React from 'react';
 import './navBar.css';
-import white_logo_transparent from '../../images/white_logo_transparent.png';
+import white_logo_transparent from '../images/logo/white_logo_transparent.png';
 import SideNavToggle from '../SideNav/sideNavToggle';
 
 const navBar = props => (
