@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import NavBar from '../../components/NavBar/navBar';
 import SideNav from '../../components/SideNav/sideNav';
 import BackDrop from '../../components/Backdrop/backDrop';
-// import MainPortfolio from '../../components/MainPortfolio/mainPortfolio';
+import MainPortfolio from '../../components/MainPortfolio/mainPortfolio';
 import Footer from '../../components/Footer/footer';
 import './portfolio.css';
 
@@ -32,7 +32,7 @@ class Portfolio extends Component {
                 <SideNav show={this.state.toggleOpen} />
                 {backDrop}
                 <main className='mainPortfolio'>
-                    {/* <MainPortfolio /> */}
+                    <MainPortfolio />
                 </main>
                 <Footer />
             </div>
