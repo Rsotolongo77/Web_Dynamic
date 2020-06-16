@@ -10,4 +10,4 @@
 
 ## To run the app simply open terminal and npm start. 
 
-## Visit live site here -----> https://evening-coast-01855.herokuapp.com/
+## Visit live site here -----> https://confident-torvalds-defddd.netlify.app/
